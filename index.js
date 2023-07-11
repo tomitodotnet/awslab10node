@@ -34,7 +34,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use('/admin', AdminBookings);
 app.use('/client', ClientBookings);
 
-app.get('/', (req,res) => res.send('Toma esto !') );
+app.get('/', (req,res) => res.send('La informacion es un derecho? <LAB10>') );
 
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
